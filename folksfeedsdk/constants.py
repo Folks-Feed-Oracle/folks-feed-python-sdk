@@ -1,6 +1,6 @@
 from enum import EnumMeta
 
-ORACLE_TESTNET_ID = 120211944
+ORACLE_TESTNET_ID = 124087437
 
 ALGO_PARAMS = {"unit-name": "ALGO", "decimals": 6}
 
