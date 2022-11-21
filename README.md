@@ -6,7 +6,7 @@ The official Python SDK for the Folks Feed Oracle
 ### Overview
 
 This SDK allows you to read the oracle prices saved in the Algorand Smart Contract:
- - Testnet app id: [120211944](https://testnet.algoexplorer.io/application/120211944). 
+ - Testnet app id: [124087437](https://testnet.algoexplorer.io/application/124087437). 
 
 It currently supports these price feeds:
 - USDC
