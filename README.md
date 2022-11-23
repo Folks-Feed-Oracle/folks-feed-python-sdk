@@ -35,5 +35,5 @@ To integrate Folks Feed Oracle in your ASC1:
 @Subroutine(TealType.uint64)
 def get_asset_price(folks_feed_oracle: abi.Application, asa_id: abi.Asset):
     asa_info = App.globalGetEx(folks_feed_oracle.application_id(), Itob(asa_id.asset_id()))
-    return Seq(asa_info, Assert(asa_info.hasValue()), ExtractUint64(asa_info.value(), Int(8)))
+    return Seq(asa_info, Assert(asa_info.hasValue()), ExtractUint64(asa_info.value(), Int(0)))
 ```
