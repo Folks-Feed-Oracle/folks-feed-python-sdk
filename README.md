@@ -14,7 +14,7 @@ It currently supports these price feeds:
 - ALGO
 - goETH
 - goBTC
-- Planet
+- Planets
 
 Prices are updated every 60 seconds.
 

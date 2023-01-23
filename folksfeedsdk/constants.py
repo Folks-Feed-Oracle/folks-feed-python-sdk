@@ -12,7 +12,7 @@ class MainnetAssetId(EnumMeta):
     USDt = 312769
     goBTC = 386192725
     goETH = 386195940
-    Planet = 27165954
+    Planets = 27165954
 
 
 class TestnetAssetId(EnumMeta):
@@ -21,4 +21,4 @@ class TestnetAssetId(EnumMeta):
     USDt = 67396430
     goBTC = 67396528
     goETH = 76598897
-    Planet = 408947
+    Planets = 408947
