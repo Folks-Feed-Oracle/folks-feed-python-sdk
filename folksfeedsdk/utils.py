@@ -1,8 +1,8 @@
 import base64
 
 
-def gs_to_int(gs, byte_index=-1):
+def gs_to_int(gs, offset: int = None, size: int = None):
     decoded_value = base64.b64decode(gs)
-    if byte_index == -1:
+    if size == None:
         return int.from_bytes(decoded_value, byteorder="big")
-    return int.from_bytes(decoded_value[0 + 8 * byte_index : 8 + 8 * byte_index], byteorder="big")
+    return int.from_bytes(decoded_value[offset : offset + size], byteorder="big")

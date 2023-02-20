@@ -1,18 +1,24 @@
 from enum import EnumMeta
 
-ORACLE_TESTNET_ID = 124087437
 
 ALGO_PARAMS = {"unit-name": "ALGO", "decimals": 6}
+
+
+class OracleAppId(EnumMeta):
+    TESTNET = 159512493
+    MAINNET = 1040271396
 
 
 class MainnetAssetId(EnumMeta):
     ALGO = 0
     gALGO = 793124631
+    gALGO3 = 694432641
     USDC = 31566704
     USDt = 312769
     goBTC = 386192725
     goETH = 386195940
     Planets = 27165954
+    OPUL = 287867876
 
 
 class TestnetAssetId(EnumMeta):
@@ -22,3 +28,4 @@ class TestnetAssetId(EnumMeta):
     goBTC = 67396528
     goETH = 76598897
     Planets = 408947
+    OPUL = 159508817
