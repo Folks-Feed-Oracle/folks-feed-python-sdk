@@ -19,8 +19,10 @@ It currently supports these price feeds:
 - OPUL
 - gALGO
 - gALGO3
+- GARD
+- goUSD
 
-Prices are updated every 60 seconds.
+Prices are updated every 10 seconds.
 
 ### Running examples
 

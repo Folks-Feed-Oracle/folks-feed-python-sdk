@@ -19,6 +19,8 @@ class MainnetAssetId(EnumMeta):
     goETH = 386195940
     Planets = 27165954
     OPUL = 287867876
+    GARD = 684649988
+    goUSD = 672913181
 
 
 class TestnetAssetId(EnumMeta):
@@ -29,3 +31,5 @@ class TestnetAssetId(EnumMeta):
     goETH = 76598897
     Planets = 408947
     OPUL = 159508817
+    GARD = 161324440
+    goUSD = 161324536
