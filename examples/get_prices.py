@@ -27,8 +27,8 @@ ffo_client = FolksFeedClient(algod_client, indexer_client, oracle_app_id)
 algo_info: AssetInfo = ffo_client.get_asset_info(asset_id.ALGO)
 print(algo_info.__dict__)
 
-goETH_info: AssetInfo = ffo_client.get_asset_info(asset_id.OPUL, 27520504)
-print(goETH_info.__dict__)
+OPUL_info: AssetInfo = ffo_client.get_asset_info(asset_id.OPUL, 27520504)
+print(OPUL_info.__dict__)
 
 goBTC_price = ffo_client.get_asset_price(asset_id.goBTC)
 print(goBTC_price)
