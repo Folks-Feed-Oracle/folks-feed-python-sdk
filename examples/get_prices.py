@@ -7,13 +7,13 @@ from folksfeedsdk.models.asset_info import AssetInfo
 network = "mainnet"
 
 if network == "mainnet":
-    algod_address = "https://node.algoexplorerapi.io"
-    indexer_address = "https://algoindexer.algoexplorerapi.io/"
+    algod_address = "https://mainnet-api.algonode.cloud"
+    indexer_address = "https://mainnet-idx.algonode.cloud"
     oracle_app_id = OracleAppId.MAINNET
     asset_id = MainnetAssetId
 else:
-    algod_address = "https://node.testnet.algoexplorerapi.io"
-    indexer_address = "https://algoindexer.testnet.algoexplorerapi.io/"
+    algod_address = "https://testnet-api.algonode.cloud"
+    indexer_address = "https://testnet-idx.algonode.cloud"
     oracle_app_id = OracleAppId.TESTNET
     asset_id = TestnetAssetId
 
