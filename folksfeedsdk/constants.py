@@ -28,6 +28,7 @@ class MainnetAssetId(EnumMeta):
     WSOL = 887648583
     WBNB = 891648844
     WMPL = 1163259470
+    GORA = 1138500612
 
 
 class TestnetAssetId(EnumMeta):
